@@ -2,7 +2,7 @@ FROM jenkins:1.651.3
 
 USER root
 RUN apt-get update && apt-get install -y wget
-USER jenkins # drop back to the regular jenkins user - good practice
+# USER jenkins # drop back to the regular jenkins user - good practice
 
 # get maven 3.2.2
 RUN wget --no-verbose -O /tmp/apache-maven-3.2.2.tar.gz http://archive.apache.org/dist/maven/maven-3/3.2.2/binaries/apache-maven-3.2.2-bin.tar.gz
