@@ -58,7 +58,11 @@
   <settings class="jenkins.mvn.DefaultSettingsProvider"/>
   <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
   <reporters/>
-  <publishers/>
+  <publishers>
+    <org.jenkinsci.plugins.mystpublisher.MySTStudioPublisher plugin="fc-myst-studio-jenkins-plugin-light@5.5.2.0-SNAPSHOT">
+      <postBuildStatus>true</postBuildStatus>
+    </org.jenkinsci.plugins.mystpublisher.MySTStudioPublisher>
+  </publishers>
   <buildWrappers/>
   <prebuilders/>
   <postbuilders/>
