@@ -20,8 +20,12 @@ ENV MAVEN_HOME /opt/maven
 # remove download archive files
 RUN apt-get clean
 
-RUN wget --no-verbose -O /var/jenkins_home/plugins/fc-myst-studio-jenkins-plugin-light.hpi http://jenkins.aws.rubiconred.com:8080/job/MyST-FusionCloud-Build/lastSuccessfulBuild/artifact/fc-parent/fc-sdk/fc-myst-studio-jenkins-plugin-light/target/fc-myst-studio-jenkins-plugin-light.hpi
+# download latest jenkins plugin
 
 COPY ./plugins.txt /usr/share/jenkins/ref/plugins.txt
 COPY ./config.xml /usr/share/jenkins/ref/config.xml
+
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/ref/plugins.txt
+
+# copy custom built plugins
+COPY ./plugins/fc-myst-studio-jenkins-plugin-light.hpi /usr/share/jenkins/ref/plugins/
