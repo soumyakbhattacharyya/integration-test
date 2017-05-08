@@ -2,6 +2,7 @@
 # Run the container for testing.
 docker run --name jenkins-for-testing \
   -v "$(pwd)/jobs":/var/jenkins_home/jobs \
+  -v "$(pwd)/code":/var/jenkins_home/code \
   -d \
   -p 8080:8080 \
   -p 50000:50000 \
@@ -11,4 +12,4 @@ docker run --name jenkins-for-testing \
   jenkins-with-plugins
 #
 # --net bridge \
-# ip addr 
+# ip addr
