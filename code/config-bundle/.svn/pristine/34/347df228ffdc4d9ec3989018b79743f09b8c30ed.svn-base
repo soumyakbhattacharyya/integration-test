@@ -1,0 +1,9 @@
+rule.config=${config}
+rule.validate=true
+rule.file=${rule.log}
+rule.level=DEV
+rule.path=${rule.path}
+rule.pattern.level=${rule.pattern.level}
+rule.find-pattern=${find.pattern}-${find.antipattern}
+rule.validation-2=${rule.validation-2}
+rule.validation-2=${rule.validation-5}
