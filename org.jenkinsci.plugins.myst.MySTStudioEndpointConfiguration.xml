@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.myst.MySTStudioEndpointConfiguration plugin="fc-myst-studio-jenkins-plugin-light@5.5.2.0-SNAPSHOT">
+  <mystStudioUrl>NA</mystStudioUrl>
+  <mystStudioAPIKey>NA</mystStudioAPIKey>
+  <dryRun>true</dryRun>
+</org.jenkinsci.plugins.myst.MySTStudioEndpointConfiguration>

@@ -1,20 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson>
-  <temporaryOfflineCause class="hudson.slaves.OfflineCause$UserCause">
-    <timestamp>1453986179962</timestamp>
-    <description>
-      <holder>
-        <owner>hudson.slaves.Messages</owner>
-      </holder>
-      <key>SlaveComputer.DisconnectedBy</key>
-      <args>
-        <string>anonymous</string>
-        <string> : Manually turned off</string>
-      </args>
-    </description>
-  </temporaryOfflineCause>
   <disabledAdministrativeMonitors/>
-  <version>1.625.3</version>
+  <version>1.651.3</version>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
@@ -38,28 +25,6 @@
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
     </hudson.model.AllView>
-    <listView>
-      <owner class="hudson" reference="../../.."/>
-      <name>Test-View</name>
-      <filterExecutors>false</filterExecutors>
-      <filterQueue>false</filterQueue>
-      <properties class="hudson.model.View$PropertyList"/>
-      <jobNames>
-        <comparator class="hudson.util.CaseInsensitiveComparator"/>
-        <string>test</string>
-      </jobNames>
-      <jobFilters/>
-      <columns>
-        <hudson.views.StatusColumn/>
-        <hudson.views.WeatherColumn/>
-        <hudson.views.JobColumn/>
-        <hudson.views.LastSuccessColumn/>
-        <hudson.views.LastFailureColumn/>
-        <hudson.views.LastDurationColumn/>
-        <hudson.views.BuildButtonColumn/>
-      </columns>
-      <recurse>false</recurse>
-    </listView>
   </views>
   <primaryView>All</primaryView>
   <slaveAgentPort>50000</slaveAgentPort>

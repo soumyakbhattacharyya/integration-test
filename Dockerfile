@@ -24,6 +24,9 @@ RUN apt-get clean
 
 COPY ./plugins.txt /usr/share/jenkins/ref/plugins.txt
 COPY ./config.xml /usr/share/jenkins/ref/config.xml
+COPY ./org.jenkinsci.plugins.myst.MySTStudioEndpointConfiguration.xml /usr/share/jenkins/ref/org.jenkinsci.plugins.myst.MySTStudioEndpointConfiguration.xml
+COPY ./nodeMonitors.xml /usr/share/jenkins/ref/nodeMonitors.xml
+COPY ./hudson.tasks.Maven.xml /usr/share/jenkins/ref/hudson.tasks.Maven.xml
 
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/ref/plugins.txt
 
