@@ -28,5 +28,5 @@ COPY ./config.xml /usr/share/jenkins/ref/config.xml
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/ref/plugins.txt
 
 # copy custom built plugins
-RUN wget --no-verbose -O ./plugins/fc-myst-studio-jenkins-plugin-light.hpi http://jenkins.aws.rubiconred.com:8080/job/MyST-FusionCloud-Build/lastSuccessfulBuild/artifact/fc-parent/fc-sdk/fc-myst-studio-jenkins-plugin-light/target/fc-myst-studio-jenkins-plugin-light.hpi
+# RUN wget --wait=30 --no-verbose -O ./plugins/fc-myst-studio-jenkins-plugin-light.hpi http://jenkins.aws.rubiconred.com:8080/job/MyST-FusionCloud-Build/lastSuccessfulBuild/artifact/fc-parent/fc-sdk/fc-myst-studio-jenkins-plugin-light/target/fc-myst-studio-jenkins-plugin-light.hpi
 COPY ./plugins/fc-myst-studio-jenkins-plugin-light.hpi /usr/share/jenkins/ref/plugins/
