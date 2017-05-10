@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@2.7.1">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.SurefireAggregatedReport>
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>0</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>1</totalCount>
+      <children>
+        <hudson.tasks.test.AggregatedTestResultAction_-Child plugin="junit@1.10">
+          <name>poc.rubiconred.fusioncloud.ci.util:printer</name>
+          <build>25</build>
+        </hudson.tasks.test.AggregatedTestResultAction_-Child>
+      </children>
+    </hudson.maven.reporters.SurefireAggregatedReport>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>poc.rubiconred.fusioncloud.ci.util:printer:pom.xml</string>
+          <string>65e972e03b0922f3f9737b45cbc96b71</string>
+        </entry>
+        <entry>
+          <string>junit:junit-4.12.jar</string>
+          <string>5b38c40c97fbd0adee29f91e60405584</string>
+        </entry>
+        <entry>
+          <string>org.hamcrest:hamcrest-core-1.3.jar</string>
+          <string>6393363b47ddcbba82321110c3e07519</string>
+        </entry>
+        <entry>
+          <string>poc.rubiconred.fusioncloud.ci.util:printer-1.0.0-SNAPSHOT.jar</string>
+          <string>b255fc6335d6ac106a905131c8f1f31b</string>
+        </entry>
+        <entry>
+          <string>org.jgrapht:jgrapht-core-0.9.0.jar</string>
+          <string>2374699225459e92a6ecd07d96b5a40b</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>4</queueId>
+  <timestamp>1494411587302</timestamp>
+  <startTime>1494411587303</startTime>
+  <result>SUCCESS</result>
+  <duration>8648</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/scenario-1-do-not-introspect-if-introspection-is-disabled-for-the-job</workspace>
+  <hudsonVersion>1.651.3</hudsonVersion>
+  <scm class="hudson.plugins.filesystem_scm.ChangelogSet$XMLSerializer" plugin="filesystem_scm@1.20"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+  <mavenVersionUsed>3.2.2</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>
