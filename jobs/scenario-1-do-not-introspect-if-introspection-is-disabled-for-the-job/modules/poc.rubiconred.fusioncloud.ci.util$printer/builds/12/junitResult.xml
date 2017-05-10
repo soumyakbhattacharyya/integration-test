@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.10">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/scenario-1-do-not-introspect-if-introspection-is-disabled-for-the-job/target/surefire-reports/TEST-poc.rubiconred.fusioncloud.ci.util.TestExecution.xml</file>
+      <name>poc.rubiconred.fusioncloud.ci.util.TestExecution</name>
+      <duration>0.013</duration>
+      <cases>
+        <case>
+          <duration>0.013</duration>
+          <className>poc.rubiconred.fusioncloud.ci.util.TestExecution</className>
+          <testName>testExecution</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.013</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

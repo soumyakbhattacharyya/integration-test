@@ -51,6 +51,7 @@
   <publishers>
     <org.jenkinsci.plugins.mystpublisher.MySTStudioPublisher plugin="fc-myst-studio-jenkins-plugin-light@5.5.2.0-SNAPSHOT">
       <postBuildStatus>true</postBuildStatus>
+      <introspect>true</introspect>
     </org.jenkinsci.plugins.mystpublisher.MySTStudioPublisher>
   </publishers>
   <buildWrappers/>
