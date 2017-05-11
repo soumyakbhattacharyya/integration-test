@@ -15,7 +15,7 @@
     </hudson.plugins.throttleconcurrents.ThrottleJobProperty>
   </properties>
   <scm class="hudson.plugins.filesystem_scm.FSSCM" plugin="filesystem_scm@1.20">
-    <path>/var/jenkins_home/code/final/printer</path>
+    <path>/var/jenkins_home/code/final/scenario-3-introspect-myst-config-plan</path>
     <clearWorkspace>false</clearWorkspace>
     <copyHidden>false</copyHidden>
     <filterEnabled>false</filterEnabled>
@@ -32,7 +32,7 @@
     <groupId>poc.rubiconred.fusioncloud.ci.util</groupId>
     <artifactId>printer</artifactId>
   </rootModule>
-  <goals>clean install</goals>
+  <goals>clean</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
   <ignoreUpstremChanges>false</ignoreUpstremChanges>
@@ -51,6 +51,7 @@
   <publishers>
     <org.jenkinsci.plugins.mystpublisher.MySTStudioPublisher plugin="fc-myst-studio-jenkins-plugin-light@5.5.2.0-SNAPSHOT">
       <postBuildStatus>true</postBuildStatus>
+      <introspect>false</introspect>
     </org.jenkinsci.plugins.mystpublisher.MySTStudioPublisher>
   </publishers>
   <buildWrappers/>

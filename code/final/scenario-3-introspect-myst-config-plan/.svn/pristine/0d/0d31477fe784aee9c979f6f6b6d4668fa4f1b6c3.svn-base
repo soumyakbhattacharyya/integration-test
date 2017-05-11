@@ -1,0 +1,9 @@
+printer.config=${global-config.config}
+printer.validate=${global-config.validate}
+printer.file=${global-config.file}
+printer-config.level=DEV
+printer-config.path=${global-config.path}
+printer-config.pattern.level=${global-config.pattern.level}
+printer-config.find-pattern=${global-config.find-pattern}
+printer-config.validation-1=${global-config.validation-1}
+printer-config.validation-2=${global-config.validation-2}
