@@ -1,0 +1,81 @@
+<log plugin="filesystem_scm@1.20">
+  <run class="hudson.maven.MavenModuleSetBuild" plugin="maven-plugin@2.7.1">
+    <actions>
+      <hudson.model.CauseAction>
+        <causeBag class="linked-hash-map">
+          <entry>
+            <hudson.model.Cause_-UserIdCause/>
+            <int>1</int>
+          </entry>
+        </causeBag>
+      </hudson.model.CauseAction>
+    </actions>
+    <queueId>13</queueId>
+    <timestamp>1495089012227</timestamp>
+    <startTime>1495089012228</startTime>
+    <duration>0</duration>
+    <charset>UTF-8</charset>
+    <keepLog>false</keepLog>
+    <builtOn></builtOn>
+    <workspace>/var/jenkins_home/workspace/scenario-7-resolve-myst-component-type</workspace>
+    <hudsonVersion>1.651.3</hudsonVersion>
+    <scm class="hudson.scm.NullChangeLogParser"/>
+  </run>
+  <logs>
+    <changelog>
+      <parent reference="../../.."/>
+      <paths>
+        <path>
+          <value>pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/test/java/poc/rubiconred/fusioncloud/ci/util/TestExecution.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/builder/EdgeBuilder.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/builder/GraphBuilder.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/DirectedGraphDemo.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/DefaultVertex.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/Vertex.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/Graph.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/Edge.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/resources/sub-folder/config.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+      </paths>
+    </changelog>
+  </logs>
+</log>

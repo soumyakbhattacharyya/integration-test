@@ -1,0 +1,25 @@
+<log plugin="filesystem_scm@1.20">
+  <run class="hudson.maven.MavenModuleSetBuild" plugin="maven-plugin@2.7.1">
+    <actions>
+      <hudson.model.CauseAction>
+        <causeBag class="linked-hash-map">
+          <entry>
+            <hudson.model.Cause_-UserIdCause/>
+            <int>1</int>
+          </entry>
+        </causeBag>
+      </hudson.model.CauseAction>
+    </actions>
+    <queueId>34</queueId>
+    <timestamp>1494913991206</timestamp>
+    <startTime>1494913991206</startTime>
+    <duration>0</duration>
+    <charset>UTF-8</charset>
+    <keepLog>false</keepLog>
+    <builtOn></builtOn>
+    <workspace>/var/jenkins_home/workspace/scenario-6-resolve-composite-revision</workspace>
+    <hudsonVersion>1.651.3</hudsonVersion>
+    <scm class="hudson.scm.NullChangeLogParser"/>
+  </run>
+  <logs/>
+</log>

@@ -1,0 +1,41 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/jenkins_home/workspace/scenario-3-introspect-myst-config-plan
+FSSCM.checkout /var/jenkins_home/code/final/scenario-3-introspect-myst-config-plan to /var/jenkins_home/workspace/scenario-3-introspect-myst-config-plan
+Modified file: pom.xml
+
+FSSCM.check completed in 7 milliseconds
+Parsing POMs
+ERROR: Failed to parse POMs
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0morg.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /var/jenkins_home/workspace/scenario-3-introspect-myst-config-plan/pom.xml: expected > to finsh end tag not < from line 13 (position: TEXT seen ...<target-directory>/lib</target-directory\n\t<... @14:3)  @ line 14, column 3
+
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:364)
+	at hudson.maven.MavenEmbedder.buildProjects(MavenEmbedder.java:361)
+	at hudson.maven.MavenEmbedder.readProjects(MavenEmbedder.java:331)
+	at hudson.maven.MavenModuleSetBuild$PomParser.invoke(MavenModuleSetBuild.java:1291)
+	at hudson.maven.MavenModuleSetBuild$PomParser.invoke(MavenModuleSetBuild.java:1088)
+	at hudson.FilePath.act(FilePath.java:990)
+	at hudson.FilePath.act(FilePath.java:968)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.parsePoms(MavenModuleSetBuild.java:950)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.doRun(MavenModuleSetBuild.java:677)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:534)
+	at hudson.model.Run.execute(Run.java:1738)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:529)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+[MyST Studio] :: Posting build end summary to MyST Studio
+ERROR: Build step failed with exception
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.RuntimeException: [MyST Studio] :: can not post build summary for a failed build to myst studio
+	at com.rubiconred.notification.Phase.handle(Phase.java:111)
+	at org.jenkinsci.plugins.mystpublisher.MySTStudioPublisher.perform(MySTStudioPublisher.java:47)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:782)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:723)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.post2(MavenModuleSetBuild.java:1037)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:668)
+	at hudson.model.Run.execute(Run.java:1763)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:529)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+Build step 'Publish to MyST Studio' marked build as failure
+Finished: FAILURE

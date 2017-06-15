@@ -12,11 +12,10 @@
       <throttleOption>project</throttleOption>
       <limitOneJobWithMatchingParams>false</limitOneJobWithMatchingParams>
       <paramsToUseForLimit></paramsToUseForLimit>
-      <configVersion>1</configVersion>
     </hudson.plugins.throttleconcurrents.ThrottleJobProperty>
   </properties>
   <scm class="hudson.plugins.filesystem_scm.FSSCM" plugin="filesystem_scm@1.20">
-    <path>/var/jenkins_home/code/final/printer</path>
+    <path>/var/jenkins_home/code/final/scenario-5-do-not-report-property-if-there-is-no-property</path>
     <clearWorkspace>false</clearWorkspace>
     <copyHidden>false</copyHidden>
     <filterEnabled>false</filterEnabled>
@@ -31,7 +30,7 @@
   <concurrentBuild>false</concurrentBuild>
   <rootModule>
     <groupId>poc.rubiconred.fusioncloud.ci.util</groupId>
-    <artifactId>printer</artifactId>
+    <artifactId>plotter</artifactId>
   </rootModule>
   <goals>clean install</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
@@ -52,6 +51,7 @@
   <publishers>
     <org.jenkinsci.plugins.mystpublisher.MySTStudioPublisher plugin="fc-myst-studio-jenkins-plugin-light@5.5.2.0-SNAPSHOT">
       <postBuildStatus>true</postBuildStatus>
+      <introspect>false</introspect>
     </org.jenkinsci.plugins.mystpublisher.MySTStudioPublisher>
   </publishers>
   <buildWrappers/>

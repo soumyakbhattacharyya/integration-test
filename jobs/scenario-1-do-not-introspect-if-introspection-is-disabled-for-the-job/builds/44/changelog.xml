@@ -1,0 +1,171 @@
+<log plugin="filesystem_scm@1.20">
+  <run class="hudson.maven.MavenModuleSetBuild" plugin="maven-plugin@2.7.1">
+    <actions>
+      <hudson.model.CauseAction>
+        <causeBag class="linked-hash-map">
+          <entry>
+            <hudson.model.Cause_-UserIdCause/>
+            <int>1</int>
+          </entry>
+        </causeBag>
+      </hudson.model.CauseAction>
+    </actions>
+    <queueId>2</queueId>
+    <timestamp>1494908945922</timestamp>
+    <startTime>1494908945923</startTime>
+    <duration>0</duration>
+    <charset>UTF-8</charset>
+    <keepLog>false</keepLog>
+    <builtOn></builtOn>
+    <workspace>/var/jenkins_home/workspace/scenario-1-do-not-introspect-if-introspection-is-disabled-for-the-job</workspace>
+    <hudsonVersion>1.651.3</hudsonVersion>
+    <scm class="hudson.scm.NullChangeLogParser"/>
+  </run>
+  <logs>
+    <changelog>
+      <parent reference="../../.."/>
+      <paths>
+        <path>
+          <value>pom.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/test/java/poc/rubiconred/fusioncloud/ci/util/TestExecution.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/builder/EdgeBuilder.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/builder/GraphBuilder.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/DirectedGraphDemo.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/DefaultVertex.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/Vertex.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/Graph.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/java/poc/rubiconred/fusioncloud/ci/util/core/Edge.java</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>src/main/resources/sub-folder/config.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/maven-archiver/pom.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/test-classes/poc/rubiconred/fusioncloud/ci/util/TestExecution.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/surefire-reports/poc.rubiconred.fusioncloud.ci.util.TestExecution.txt</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/surefire-reports/TEST-poc.rubiconred.fusioncloud.ci.util.TestExecution.xml</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/printer-1.0.0-SNAPSHOT.jar</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/classes/app.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/classes/sub-folder/config.properties</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/classes/poc/rubiconred/fusioncloud/ci/util/core/DefaultVertex.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/classes/poc/rubiconred/fusioncloud/ci/util/core/builder/EdgeBuilder.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/classes/poc/rubiconred/fusioncloud/ci/util/core/builder/GraphBuilder.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/classes/poc/rubiconred/fusioncloud/ci/util/core/DirectedGraphDemo.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/classes/poc/rubiconred/fusioncloud/ci/util/core/Vertex.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/classes/poc/rubiconred/fusioncloud/ci/util/core/Edge.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/classes/poc/rubiconred/fusioncloud/ci/util/core/Graph.class</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+        <path>
+          <value>target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst</value>
+          <action>ADD</action>
+          <changelog reference="../../.."/>
+        </path>
+      </paths>
+    </changelog>
+  </logs>
+</log>

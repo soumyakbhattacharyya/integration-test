@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.7.1">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>poc.rubiconred.fusioncloud.ci.util:printer:pom.xml</string>
+          <string>071af8f924ad9c5a915f868cbc746ea6</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>poc.rubiconred.fusioncloud.ci.util</groupId>
+        <artifactId>printer</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>printer-1.0.0-SNAPSHOT.pom</canonicalName>
+        <md5sum>071af8f924ad9c5a915f868cbc746ea6</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1494847691753</timestamp>
+  <startTime>1494847693842</startTime>
+  <result>SUCCESS</result>
+  <duration>614</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/scenario-3-introspect-myst-config-plan</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>2.5</version>
+      <goal>clean</goal>
+      <executionId>default-clean</executionId>
+      <duration>139</duration>
+      <digest>9a18e4d3f6e6495ed92b7d4694b41e66</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

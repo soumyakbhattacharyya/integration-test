@@ -1,0 +1,9 @@
+plotter.config=${global-config.config}
+plotter.validate=${global-config.validate}
+plotter.file=${global-config.file}
+plotter-config.level=DEV
+plotter-config.path=${global-config.path}
+plotter-config.pattern.level=${global-config.pattern.level}
+plotter-config.find-pattern=${global-config.find-pattern}
+plotter-config.validation-1=${global-config.validation-1}
+plotter-config.validation-2=${global-config.validation-2}

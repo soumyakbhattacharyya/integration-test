@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@2.7.1">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>poc.rubiconred.fusioncloud.ci.util:printer:pom.xml</string>
+          <string>04202b81774aaab0a48b08a613947ef7</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>40</queueId>
+  <timestamp>1494915166260</timestamp>
+  <startTime>1494915166261</startTime>
+  <result>SUCCESS</result>
+  <duration>3083</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/scenario-3-introspect-myst-config-plan</workspace>
+  <hudsonVersion>1.651.3</hudsonVersion>
+  <scm class="hudson.plugins.filesystem_scm.ChangelogSet$XMLSerializer" plugin="filesystem_scm@1.20"/>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>unknown</string>
+  </culprits>
+  <mavenVersionUsed>3.2.2</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

@@ -1,0 +1,9 @@
+plotter.config=${plotter-config.config}
+plotter.validate=${plotter-config.validate}
+plotter.file=${plotter-config.file}
+plotter-config.level=DEV
+plotter-config.path=${plotter-config.path}
+plotter-config.pattern.level=${plotter-config.pattern.level}
+plotter-config.find-pattern=${plotter-config.find-pattern}
+plotter-config.validation-1=${plotter-config.validation-1}
+plotter-config.validation-2=${plotter-config.validation-2}

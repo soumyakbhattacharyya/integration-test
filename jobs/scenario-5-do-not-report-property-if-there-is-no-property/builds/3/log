@@ -1,0 +1,38 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/jenkins_home/workspace/scenario-5-do-not-report-property-if-there-is-no-property
+FSSCM.checkout /var/jenkins_home/code/final/printer/scenario-5-do-not-report-property-if-there-is-no-property to /var/jenkins_home/workspace/scenario-5-do-not-report-property-if-there-is-no-property
+FATAL: Parameter 'directory' is not a directory
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+	at org.apache.commons.io.FileUtils.validateListFilesParameters(FileUtils.java:545)
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:521)
+	at org.apache.commons.io.FileUtils.iterateFiles(FileUtils.java:628)
+	at hudson.plugins.filesystem_scm.FolderDiff.getNewOrModifiedFiles(FolderDiff.java:112)
+	at hudson.plugins.filesystem_scm.RemoteFolderDiff$CheckOut.invoke(RemoteFolderDiff.java:94)
+	at hudson.plugins.filesystem_scm.RemoteFolderDiff$CheckOut.invoke(RemoteFolderDiff.java:88)
+	at hudson.FilePath.act(FilePath.java:990)
+	at hudson.FilePath.act(FilePath.java:968)
+	at hudson.plugins.filesystem_scm.FSSCM.checkout(FSSCM.java:140)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1269)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:607)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:529)
+	at hudson.model.Run.execute(Run.java:1738)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:529)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+[MyST Studio] :: Posting build end summary to MyST Studio
+ERROR: Build step failed with exception
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.RuntimeException: [MyST Studio] :: can not post build summary for a failed build to myst studio
+	at com.rubiconred.notification.Phase.handle(Phase.java:111)
+	at org.jenkinsci.plugins.mystpublisher.MySTStudioPublisher.perform(MySTStudioPublisher.java:47)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:782)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:723)
+	at hudson.maven.MavenModuleSetBuild$MavenModuleSetBuildExecution.post2(MavenModuleSetBuild.java:1037)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:668)
+	at hudson.model.Run.execute(Run.java:1763)
+	at hudson.maven.MavenModuleSetBuild.run(MavenModuleSetBuild.java:529)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+Build step 'Publish to MyST Studio' marked build as failure
+Finished: FAILURE

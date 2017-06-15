@@ -1,0 +1,36 @@
+<log plugin="filesystem_scm@1.20">
+  <run class="hudson.maven.MavenModuleSetBuild" plugin="maven-plugin@2.7.1">
+    <actions>
+      <hudson.model.CauseAction>
+        <causeBag class="linked-hash-map">
+          <entry>
+            <hudson.model.Cause_-UserIdCause/>
+            <int>1</int>
+          </entry>
+        </causeBag>
+      </hudson.model.CauseAction>
+    </actions>
+    <queueId>4</queueId>
+    <timestamp>1495088437808</timestamp>
+    <startTime>1495088437824</startTime>
+    <duration>0</duration>
+    <charset>UTF-8</charset>
+    <keepLog>false</keepLog>
+    <builtOn></builtOn>
+    <workspace>/var/jenkins_home/workspace/scenario-5-do-not-report-property-if-there-is-no-property</workspace>
+    <hudsonVersion>1.651.3</hudsonVersion>
+    <scm class="hudson.scm.NullChangeLogParser"/>
+  </run>
+  <logs>
+    <changelog>
+      <parent reference="../../.."/>
+      <paths>
+        <path>
+          <value>src/test/java/poc/rubiconred/fusioncloud/ci/util/TestExecution.java</value>
+          <action>DELETE</action>
+          <changelog reference="../../.."/>
+        </path>
+      </paths>
+    </changelog>
+  </logs>
+</log>
